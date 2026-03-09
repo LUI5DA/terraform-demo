@@ -1,0 +1,85 @@
+############################
+# Terraform
+############################
+
+# Terraform directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+*.plan
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Variable files with secrets
+*.tfvars
+*.tfvars.json
+
+############################
+# Ansible
+############################
+
+# Retry files
+*.retry
+
+# Fact cache
+.fact_cache/
+
+# Ansible logs
+ansible.log
+
+# Inventory generated dynamically
+inventory.ini
+
+############################
+# Secrets
+############################
+
+secrets.sh
+
+############################
+# SSH Keys
+############################
+
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+############################
+# OS files
+############################
+
+.DS_Store
+Thumbs.db
+
+############################
+# Editors
+############################
+
+.vscode/
+.idea/
+
+############################
+# Python (for ansible environments)
+############################
+
+venv/
+.env/
+__pycache__/
+*.pyc
